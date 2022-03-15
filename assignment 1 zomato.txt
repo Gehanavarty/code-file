@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Zomato Home Page
+    </title>
+	<style>
+		
+        body{
+            background-color:aqua;
+        }
+	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link
+	href="https://fonts.adobe.com/fonts/ubuntu-mono"
+
+	rel="stylesheet">	>
+</head>
+
+<body>
+	<header >
+		
+		<h1 id="top">ZOMATO</h1>
+		<h1 id="top1">Start your day with exclusive food.</h1>
+		<div>Order food online</div>
+		<select >
+			<option disabled>Select City</option>
+				<option>Delhi</options>
+				<option>Chandigarh</option>
+				<option>Goa</option>
+				<option>banglore</option>
+		</select>
+		<input type="text" placeholder="Search For Food"/>
+		<button>search</button>
+		<div>
+	</header>
+	<hr>
+	<nav id="navbar">
+		<img src="./Multi-cuisine.jpg" width ="1000" height=""800>
+		<ul id="navcontent">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Menu</a></li>
+			<li><a href="#">ContactUs</a></li>
+		</ul>
+	</nav>
+	<div id="container1">
+		<div id="row1"  "style="color:darkred ; text-align: center; font-style: oblique;">
+			WElCOME TO ONLINE FOOD SHOP 
+		</div>
+		<button class="btn">ORDER NOW</button>
+		<select >
+			<option disabled>Select food</option>
+				<option>Breakfast</options>
+				<option>Lunch</option>
+				<option>Dinner</option>
+				<option>Snaks</option>
+		</select>
+		<div id="container3">
+			<div id="row2">
+				<button class="btn">Prices</button>
+				<select >
+					<option disabled>Select prices</option>
+						<option>upto 1000</options>
+						<option>1500-3000</option>
+						<option>3000-5000</option>
+						<option>5000-and more</option>
+				</select>
+			</div>
+			<div id="row3">
+				<button class="btn">Specials</button>
+				<select >
+					<option disabled>Select </option>
+						<option>Desserts</options>
+						<option>Sweets</option>
+						<option>Juices</option>
+						<option>And many more</option>
+				</select>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<h1 id="top3">Featured Products</h1>
+	<div id="container4">
+		<div id="row4">
+	         <img src="./R.jfif" width="300" height="400">
+			<button class="btn">ORDER NOW</button>
+			<input type="radio">
+			<input type="checkbox">
+		</div>
+		<div id="row5">
+            <img src="./15 best multi-cuisine restaurants in Mumbai, New Delhi, Bengaluru, Kolkata and Goa.jpg"  width="300" height="400">
+			<button class="btn">ORDER NOW</button>
+			<input type="radio">
+			<input type="checkbox">
+		</div>
+		<div id="row6">
+			<img src="./shutterstock_260981603.jpg" width="300" height="400">
+			<button class="btn">ORDER NOW</button>
+			<input type="radio">
+			<input type="checkbox">
+		</div>
+	</div>
+	<footer>Copyright © 2022-2023 OnlineFoodShop.
+		All Rights are reserved</footer>
+</body>
+</html>
